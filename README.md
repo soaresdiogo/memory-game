@@ -1,6 +1,6 @@
-# memory-game [![Build Status](https://travis-ci.org/soaresdiogo/memory-game.svg?branch=master)](https://travis-ci.org/soaresdiogo/memory-game)
+# memory-game [![Build Status](https://travis-ci.org/soaresdiogo/memory-game.svg?branch=main)](https://travis-ci.org/soaresdiogo/memory-game)
 
-[Heroku](https://animalsmemorygame.herokuapp.com/)
+Play the Game [Memory Game](https://animalsmemorygame.herokuapp.com/)
 
 This is a animals memory game developed in reactJS. In this project I used:
 
