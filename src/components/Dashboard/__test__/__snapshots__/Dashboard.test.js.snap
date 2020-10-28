@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard component matches snapshot 1`] = `
+<div
+  className="MuiGrid-root Dashboard-root-3 MuiGrid-container MuiGrid-align-items-xs-center MuiGrid-justify-xs-center"
+  data-testid="dashboard"
+>
+  Content
+</div>
+`;

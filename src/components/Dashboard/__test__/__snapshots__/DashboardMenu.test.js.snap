@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard menu component matches snapshot 1`] = `
+<div
+  className="MuiPaper-root DashboardMenu-root-5 MuiPaper-elevation1 MuiPaper-rounded"
+  data-testid="dashboardMenu"
+>
+  <h4
+    className="MuiTypography-root DashboardMenu-title-6 MuiTypography-h4 MuiTypography-alignCenter"
+    data-testid="dashboardMenuTitle"
+  >
+    Memory Game
+  </h4>
+</div>
+`;

@@ -1,0 +1,25 @@
+language: node_js
+os: linux
+node_js:
+  - '12'
+cache: yarn
+script:
+  - yarn install
+  - yarn test
+  - yarn build
+services:
+  - xvfb
+dist: xenial
+deploy:
+  - provider: pages
+    cleanup: true
+    token: $GITHUB_TOKEN
+    keep_history: true
+    on:
+      branch: master
+  - provider: heroku
+    cleanup: true
+    api_key: $HEROKU_API_KEY
+    app: animalsmemorygame
+    on:
+      branch: master

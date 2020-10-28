@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component matches snapshot 1`] = `
+<div
+  className="MuiGrid-root Dashboard-root-4 MuiGrid-container MuiGrid-align-items-xs-center MuiGrid-justify-xs-center"
+  data-testid="dashboard"
+>
+  <div
+    className="MuiPaper-root DashboardMenu-root-5 MuiPaper-elevation1 MuiPaper-rounded"
+    data-testid="dashboardMenu"
+  >
+    <h4
+      className="MuiTypography-root DashboardMenu-title-6 MuiTypography-h4 MuiTypography-alignCenter"
+      data-testid="dashboardMenuTitle"
+    >
+      Memory Game
+    </h4>
+    <a
+      aria-disabled={false}
+      className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-outlinedSizeLarge MuiButton-sizeLarge MuiButton-fullWidth"
+      data-testid="dashboardButton"
+      href="/game"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <span
+        className="MuiButton-label"
+      >
+        Start Game
+      </span>
+    </a>
+  </div>
+</div>
+`;

@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card component matches snapshot 1`] = `
+<div
+  className="Card-root-15"
+  data-testid="card"
+  role="presentation"
+>
+  <div
+    className="Card-flipper-16"
+  >
+    <div
+      className="MuiPaper-root MuiCard-root Card-page-18 Card-pageFront-19 MuiPaper-elevation1 MuiPaper-rounded"
+    />
+    <div
+      className="MuiPaper-root MuiCard-root Card-page-18 Card-pageBack-20 MuiPaper-elevation1 MuiPaper-rounded"
+    >
+      <button
+        className="MuiButtonBase-root MuiCardActionArea-root"
+        disabled={false}
+        onBlur={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <div
+          className="MuiCardMedia-root Card-media-21"
+          style={
+            Object {
+              "backgroundImage": "url(\\"/images/elephant.jpg\\")",
+            }
+          }
+          title="Contemplative Reptile"
+        />
+        <div
+          className="MuiCardContent-root"
+        >
+          <h2
+            className="MuiTypography-root MuiTypography-h5 MuiTypography-alignCenter"
+          >
+            E
+          </h2>
+          <h2
+            className="MuiTypography-root MuiTypography-h5 MuiTypography-alignCenter"
+          >
+            Elephant
+          </h2>
+        </div>
+        <span
+          className="MuiCardActionArea-focusHighlight"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;
