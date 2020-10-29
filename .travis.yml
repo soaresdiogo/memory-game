@@ -1,6 +1,7 @@
 language: node_js
 os: linux
 dist: xenial
+cache: yarn
 node_js:
   - 12.18.2
 cache: yarn
@@ -12,8 +13,8 @@ script:
 
 deploy:
   provider: pages
-  cleanup: true
+  skip_cleanup: true
   token: $GITHUB_TOKEN
-  local_dir: build
+  local_dir: gh-pages
   on:
     branch: main
